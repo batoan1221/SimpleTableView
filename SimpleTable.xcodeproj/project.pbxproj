@@ -39,6 +39,8 @@
 		844F57171841172A00C8960B /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 844F57071841172A00C8960B /* white_chocolate_donut.jpg */; };
 		844F571B1841185B00C8960B /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844F571A1841185B00C8960B /* SimpleTableCell.xib */; };
 		844F571E1841199600C8960B /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F571D1841199600C8960B /* SimpleTableCell.m */; };
+		844F5724184123C600C8960B /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844F5723184123C600C8960B /* recipes.plist */; };
+		844F572A1841275500C8960B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F57291841275500C8960B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,9 +89,11 @@
 		844F57051841172A00C8960B /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
 		844F57061841172A00C8960B /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
 		844F57071841172A00C8960B /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
-		844F571A1841185B00C8960B /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
-		844F571C1841199600C8960B /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
-		844F571D1841199600C8960B /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
+		844F571A1841185B00C8960B /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = SOURCE_ROOT; };
+		844F571C1841199600C8960B /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = SOURCE_ROOT; };
+		844F571D1841199600C8960B /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = SOURCE_ROOT; };
+		844F5723184123C600C8960B /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
+		844F57291841275500C8960B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +123,7 @@
 		844F56B5184110DF00C8960B = {
 			isa = PBXGroup;
 			children = (
-				844F571A1841185B00C8960B /* SimpleTableCell.xib */,
-				844F571C1841199600C8960B /* SimpleTableCell.h */,
-				844F571D1841199600C8960B /* SimpleTableCell.m */,
+				844F57291841275500C8960B /* Default-568h@2x.png */,
 				844F56C7184110DF00C8960B /* SimpleTable */,
 				844F56E6184110E000C8960B /* SimpleTableTests */,
 				844F56C0184110DF00C8960B /* Frameworks */,
@@ -157,6 +159,9 @@
 				844F56D3184110DF00C8960B /* Main.storyboard */,
 				844F56D6184110DF00C8960B /* SimpleTableViewController.h */,
 				844F56D7184110DF00C8960B /* SimpleTableViewController.m */,
+				844F571A1841185B00C8960B /* SimpleTableCell.xib */,
+				844F571C1841199600C8960B /* SimpleTableCell.h */,
+				844F571D1841199600C8960B /* SimpleTableCell.m */,
 				844F56D9184110DF00C8960B /* Images.xcassets */,
 				844F56C8184110DF00C8960B /* Supporting Files */,
 			);
@@ -185,6 +190,7 @@
 				844F57071841172A00C8960B /* white_chocolate_donut.jpg */,
 				844F56CA184110DF00C8960B /* InfoPlist.strings */,
 				844F56CD184110DF00C8960B /* main.m */,
+				844F5723184123C600C8960B /* recipes.plist */,
 				844F56CF184110DF00C8960B /* SimpleTable-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -293,6 +299,7 @@
 				844F56CC184110DF00C8960B /* InfoPlist.strings in Resources */,
 				844F571B1841185B00C8960B /* SimpleTableCell.xib in Resources */,
 				844F57171841172A00C8960B /* white_chocolate_donut.jpg in Resources */,
+				844F5724184123C600C8960B /* recipes.plist in Resources */,
 				844F57101841172A00C8960B /* instant_noodle_with_egg.jpg in Resources */,
 				844F570F1841172A00C8960B /* hamburger.jpg in Resources */,
 				844F57131841172A00C8960B /* noodle_with_bbq_pork.jpg in Resources */,
@@ -304,6 +311,7 @@
 				844F57141841172A00C8960B /* starbucks_coffee.jpg in Resources */,
 				844F570A1841172A00C8960B /* egg_benedict.jpg in Resources */,
 				844F570E1841172A00C8960B /* ham_and_egg_sandwich.jpg in Resources */,
+				844F572A1841275500C8960B /* Default-568h@2x.png in Resources */,
 				844F57111841172A00C8960B /* japanese_noodle_with_pork.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
